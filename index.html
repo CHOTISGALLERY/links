@@ -8,7 +8,7 @@
     body {
         font-family: 'Pacifico', cursive;
         padding: 10px;
-        background-color: #FFD1DC;
+        background: linear-gradient(to bottom, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
         text-align: center;
         font-size: 20px;
     }
@@ -29,12 +29,11 @@
         text-decoration: none;
         border-radius: 5px;
         font-size: 18px;
-        transition: background-color 0.3s ease, transform 0.5s ease;
+        transition: color 0.3s ease, transform 0.5s ease;
     }
     
     a:hover {
-        background-color: #FF88CC;
-        color: #FFF;
+        color: #FFD700;
         transform: scale(1.05);
     }
     
@@ -42,6 +41,19 @@
         color: #FF6B6B;
         font-family: 'Amatic SC', cursive;
         font-size: 25px;
+    }
+
+    @media (max-width: 600px) {
+        h1, h2 {
+            font-size: 30px;
+        }
+        a {
+            font-size: 16px;
+            padding: 10px;
+        }
+        p {
+            font-size: 20px;
+        }
     }
 
 </style>
